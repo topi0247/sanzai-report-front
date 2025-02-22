@@ -1,3 +1,0 @@
-name = "sanzai-report-front"
-main = "./dist/index.html"
-pages_build_output_dir = "dist"
