@@ -1,13 +1,7 @@
-import { Button } from "@/components/ui/button";
-import { ModeToggle } from "./components/mode-toggle";
+import { AppRouter } from "./app";
 
 function App() {
-  return (
-    <div>
-      <Button>Button</Button>
-      <ModeToggle />
-    </div>
-  );
+  return <AppRouter />;
 }
 
 export default App;
