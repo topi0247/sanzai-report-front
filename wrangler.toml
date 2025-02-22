@@ -1,0 +1,2 @@
+name = "sanzai-report-front"
+main = "./dist/index.html"
