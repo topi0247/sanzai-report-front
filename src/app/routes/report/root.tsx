@@ -1,40 +1,7 @@
 import { ModeToggle } from "@/components/mode-toggle";
 import { NavLink, Outlet } from "react-router";
-import {
-  NavigationMenu,
-  NavigationMenuContent,
-  NavigationMenuItem,
-  NavigationMenuLink,
-  NavigationMenuList,
-  NavigationMenuTrigger,
-} from "@/components/ui/navigation-menu";
-import { Separator } from "@/components/ui/separator";
 import { FaXTwitter } from "react-icons/fa6";
-
-const HeaderMenu = () => {
-  return (
-    <NavigationMenu>
-      <NavigationMenuList>
-        <NavigationMenuItem>
-          <NavigationMenuTrigger>メニュー</NavigationMenuTrigger>
-          <NavigationMenuContent>
-            <NavigationMenuLink>
-              <NavLink to="#" end>
-                hoge
-              </NavLink>
-            </NavigationMenuLink>
-            <Separator />
-            <NavigationMenuLink>
-              <NavLink to="#" end>
-                hoge
-              </NavLink>
-            </NavigationMenuLink>
-          </NavigationMenuContent>
-        </NavigationMenuItem>
-      </NavigationMenuList>
-    </NavigationMenu>
-  );
-};
+import { HeaderMenu } from "@/components/heade-menu";
 
 export const Report = () => {
   return (
