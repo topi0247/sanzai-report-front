@@ -1,5 +1,4 @@
 @import "tailwindcss";
-@import url("https://fonts.googleapis.com/css2?family=Klee+One&family=Zen+Kaku+Gothic+Antique:wght@300;400;500;700;900&display=swap");
 
 @custom-variant dark (&:is(.dark *));
 
