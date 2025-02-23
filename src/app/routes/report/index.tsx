@@ -9,29 +9,31 @@ export const ReportIndex = () => {
   return (
     <article className="mt-4 flex flex-col gap-4">
       <section className="flex flex-col gap-4">
-        <div className="flex items-center justify-start gap-2">
-          <Label htmlFor="category" className="w-1/5">
-            分類
-          </Label>
-          <Input id="category" placeholder="書籍" />
-        </div>
-        <div className="flex items-center justify-start gap-2">
-          <Label htmlFor="name" className="w-1/5">
-            内容
-          </Label>
-          <Input id="name" placeholder="Git本" />
-        </div>
-        <div className="flex items-center justify-start gap-2">
-          <Label htmlFor="store" className="w-1/5">
-            購入場所
-          </Label>
-          <Input id="store" placeholder="Amazon" />
-        </div>
-        <div className="flex items-center justify-start gap-2">
-          <Label htmlFor="amount" className="w-1/5">
-            金額
-          </Label>
-          <Input id="amount" placeholder="3000" type="number" min={0} />
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-x-8 md:gap-y-2">
+          <div className="flex items-center justify-start gap-2">
+            <Label htmlFor="category" className="w-1/5 md:w-20">
+              分類
+            </Label>
+            <Input id="category" placeholder="書籍" />
+          </div>
+          <div className="flex items-center justify-start gap-2">
+            <Label htmlFor="name" className="w-1/5 md:w-8">
+              内容
+            </Label>
+            <Input id="name" placeholder="Git本" />
+          </div>
+          <div className="flex items-center justify-start gap-2">
+            <Label htmlFor="store" className="w-1/5 md:w-20">
+              購入場所
+            </Label>
+            <Input id="store" placeholder="Amazon" />
+          </div>
+          <div className="flex items-center justify-start gap-2">
+            <Label htmlFor="amount" className="w-1/5 md:w-8">
+              金額
+            </Label>
+            <Input id="amount" placeholder="3000" type="number" min={0} />
+          </div>
         </div>
         <div className="text-center">
           <Button className="inline-block cursor-pointer transition-all">

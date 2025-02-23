@@ -17,7 +17,7 @@ export const Report = () => {
           <ModeToggle />
         </div>
       </header>
-      <main className="grow">
+      <main className="m-auto max-w-5xl grow">
         <Outlet />
       </main>
       <footer className="mt-8 flex justify-end gap-2">
