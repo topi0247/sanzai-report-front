@@ -1,7 +1,7 @@
 import { ModeToggle } from "@/components/mode-toggle";
 import { NavLink, Outlet } from "react-router";
 import { FaXTwitter } from "react-icons/fa6";
-import { HeaderMenu } from "@/components/heade-menu";
+import { HeaderMenu } from "@/components/header-menu";
 
 export const Report = () => {
   return (
@@ -20,7 +20,7 @@ export const Report = () => {
       <main className="grow">
         <Outlet />
       </main>
-      <footer className="flex justify-end gap-2">
+      <footer className="mt-8 flex justify-end gap-2">
         <span className="inline-block">©2025 とぴ</span>
         <a
           href="https://x.com/topi_log"

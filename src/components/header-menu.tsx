@@ -6,7 +6,7 @@ import {
     NavigationMenuList,
     NavigationMenuTrigger,
   } from "@/components/ui/navigation-menu";
-  import { Separator } from "@/components/ui/separator";
+import { Separator } from "@/components/ui/separator";
 import { NavLink } from "react-router";
 
 export const HeaderMenu = () => {
