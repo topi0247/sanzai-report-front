@@ -1,3 +1,5 @@
+import { FaEdit } from "react-icons/fa";
+import { Button } from "@/components/ui/button";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import {
   Table,
@@ -18,6 +20,11 @@ function ListItem() {
         Amazon
       </TableCell>
       <TableCell className="text-right">3,000</TableCell>
+      <TableCell className="text-right">
+        <Button variant={"ghost"} size={"icon"}>
+          <FaEdit />
+        </Button>
+      </TableCell>
     </TableRow>
   );
 }
@@ -33,6 +40,7 @@ export const ReportList = () => {
             <TableHead>内容</TableHead>
             <TableHead>購入場所</TableHead>
             <TableHead className="text-right">金額</TableHead>
+            <TableHead></TableHead>
           </TableRow>
         </TableHeader>
       </Table>
